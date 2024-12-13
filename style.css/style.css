@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/image/background);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+
+header{
+height: 80px;
+background-color: rgba(250, 235, 215, 0.897);
+text-align: center;
+}
+
+header h1{
+    padding-top: 20px;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgb(238, 0, 0);
+}
+
+.slider {
+    width: 900px;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+  }
+  
+  .slides {
+    display: block; 
+    transition: margin-left 0.5s ease-in-out;
+  }
+  
+  .slides img {
+   height: 100%;
+   width: 80%;
+   margin: 0 auto;
+    display: block; 
+    
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+
+  .main{
+   display: flex;
+  
+   justify-content: center;
+  }
+
+ #mainban{
+    width: 1400px;
+  }
+
+  .main__p{
+    color: #000000;
+    text-shadow: 1px 1px 2px rgb(238, 0, 0);
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-left: 30px;
+    margin-top: 200px;
+  }
+
+  .info{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+  }
+
+  #info{
+ height: 400px;
+  }
+
+  .info__text{
+    background-color: rgba(250, 235, 215, 0.897);
+    height: 900px;
+    width: 900px;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgb(238, 0, 0);
+    margin-top: 50px;
+    font-size: 60px;
+  }
+
+  .pozdr{
+    height: 500px;
+    background-color:rgba(250, 235, 215, 0.897); 
+    text-align: center;
+    font-size: 60px;
+    padding-top: 300px;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgb(238, 0, 0);
+  }
+
+.auto_pozdr{
+
+width: 600px;
+}
+
+.pozdr_2{
+    height: 500px;
+    background-color:rgba(250, 235, 215, 0.897); 
+    text-align: center;
+    font-size: 60px;
+    padding-top: 300px;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgb(238, 0, 0);
+}
